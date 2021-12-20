@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+html,body{
+    height: 100%;
+
+}
+
+.center{
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 2%;
+}
+
+
+
+section.main{
+
+    width: 100%;
+    min-height: 100%;
+    background-image: url(imagens/09.jpg);
+    background-position: center ;
+    background-size: cover;
+
+}
+header{
+    display: flex;
+    justify-content: space-around; /*pega todo conteuo e distribui igual*/
+
+
+}
+
+.logo {
+
+    position: relative;
+    top: auto
+    
+
+}
+
+
+.logo img {
+    padding: auto;
+
+}
+
+.menu{margin-top: 15px;}
+
+
+.menu a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    transition: 0.3s;
+    padding: 3px 5px;
+
+}
+.menu a:hover{
+    border-radius: 6px;
+    background-color: blueviolet;
+
+
+}
+.title{
+    text-align: center;
+    margin-top: 70px;
+}
+.title h2{ color: brown;font-size: 45px; letter-spacing: 1,2px;}
+.title p {color: blanchedalmond; margin-top: 10px;}
+
+.title p a{ color: white;}
+
+.btn{
+    position:absolute;
+    bottom: 40px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+
+.btn a {
+    display: inline-block;
+    padding: 8px 50px;
+    margin: 0 15px;
+    background-color: blueviolet;
+    color: wheat;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.btn a:hover{
+    background: green;
+}
